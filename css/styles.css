@@ -51,3 +51,9 @@ body {
 li.ndx {
 background-color: #737373;
 }
+@media screen and (max-height: 480px) {
+    * {
+        font-size: xx-small;
+    }
+
+}
