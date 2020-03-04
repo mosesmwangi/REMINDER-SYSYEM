@@ -16,3 +16,6 @@ $(document).ready(function () {
         $(".k").append("<li>" + Details.Email + "</li>");
     })
 })
+
+
+

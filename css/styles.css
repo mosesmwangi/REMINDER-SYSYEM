@@ -51,3 +51,9 @@ body {
 li.ndx {
 background-color: #737373;
 }
+li.clck {
+    background-color: #737373;
+}
+.colorOtherwise {
+    background-color: white;
+}
