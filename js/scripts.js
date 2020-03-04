@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function details(Name, date, mail, Textarea) {
     this.Name = Name;
     this.Date = date;
@@ -16,3 +17,11 @@ $(document).ready(function () {
         $(".k").append("<li>" + Details.Email + "</li>");
     })
 })
+=======
+$(document).ready(function() {
+  $('#clickcal').click(function() {
+    $('iframe').slideDown(300);
+    $('iframe').slideUp(300);
+  });
+});
+>>>>>>> add a calender button to slide up and down the calendar
