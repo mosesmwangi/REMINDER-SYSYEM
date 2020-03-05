@@ -46,7 +46,7 @@ background-color: #737373;
 padding: 12px;
 }
 body {
- background: url(/images/Home.JPG);
+ /* background: url(/images/Home.JPG); */
  background-size: cover;  
  background-repeat: no-repeat;
 }
