@@ -24,6 +24,8 @@ color: #000;
 padding: 8px 16px;
 text-decoration: none;
 justify-content: center;
+margin-top: 0px;
+font-weight: 700;
 /* display: flex;
 justify-content: space-evenly; */
 }
@@ -46,9 +48,11 @@ background-color: #737373;
 padding: 12px;
 }
 body {
- /* background: url(/images/Home.JPG); */
+ background: url(/images/146843.jpg); 
+ background-color: #F3EBF6;
  background-size: cover;  
  background-repeat: no-repeat;
+ font-family: 'Ubuntu', sans-serif;
 }
 li.ndx {
 background-color: #737373;
@@ -64,4 +68,16 @@ li.clck {
 }
 h2 {
     padding: 20px;
+}
+a {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #8C55AA;
+    text-decoration: none
+    }
+h3#cal {
+    padding: 7px;
+    color: snow;
+}
+button {
+    border-radius: 20px;
 }
