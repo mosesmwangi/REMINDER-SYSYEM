@@ -52,9 +52,11 @@ body {
 }
 li.ndx {
 background-color: #737373;
+font: black;
 }
 li.clck {
     background-color: #737373;
+    color: black;
 }
 .colorOtherwise {
     background-color: white;
