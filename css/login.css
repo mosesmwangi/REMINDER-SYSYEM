@@ -1,5 +1,9 @@
 body {
-background-color: #F3EBF6;
+  background-image: url("../images/login.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-size: cover;
 font-family: 'Ubuntu', sans-serif;
 }
 
