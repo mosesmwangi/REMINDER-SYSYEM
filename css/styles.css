@@ -1,3 +1,7 @@
+body {
+  background-color: #F3EBF6;
+  font-family: 'Ubuntu', sans-serif;
+}
 ul .nav {
     list-style-type: none;
     margin: 0;
@@ -7,7 +11,7 @@ ul .nav {
     display: block;
     overflow: auto;
 }
-ul {    
+ul {
 list-style-type: none;
 margin: 0;
 padding: 0;
@@ -19,7 +23,7 @@ overflow: auto;
 border-radius: 10px;
 }
 li {
-display: block;    
+display: block;
 color: #000;
 padding: 8px 16px;
 text-decoration: none;
@@ -27,16 +31,16 @@ justify-content: center;
 /* display: flex;
 justify-content: space-evenly; */
 }
-* {   
+* {
 color: #000;
 margin-top: 10px;
 }
-textarea{    
+textarea{
     color: #000;
 }
 .color {
     background-color: #e6e6e6;
-}    
+}
 .k {
 text-align: center;
 }
@@ -45,11 +49,7 @@ text-align: center;
 background-color: #737373;
 padding: 12px;
 }
-body {
- background: url(/images/Home.JPG);
- background-size: cover;  
- background-repeat: no-repeat;
-}
+
 li.ndx {
 background-color: #737373;
 }
