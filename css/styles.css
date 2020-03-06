@@ -6,6 +6,9 @@ body {
   background-size: cover;
   font-family: 'Ubuntu', sans-serif;
 }
+nav {
+  background-color: #1A1A1A;
+}
 ul .nav {
     list-style-type: none;
     margin: 0;
@@ -37,7 +40,7 @@ justify-content: space-evenly; */
 }
 * {
 color: #000;
-margin-top: 10px;
+//*margin-top: 10px;*/
 }
 header {
   text-align: center;
@@ -118,11 +121,13 @@ background-color: #737373;
 padding: 12px;
 }
 
-li.ndx {
-background-color: #737373;
+li:hover {
+  background: linear-gradient(to right, #9C27B0, #E040FB);
+  border-radius: 5em;
 }
-li.clck {
-    background-color: #737373;
+li:active {
+    background: linear-gradient(to right, #9C27B0, #E040FB);
+    border-radius: 5em;
 }
 .colorOtherwise {
     background-color: white;
@@ -137,7 +142,6 @@ footer{
 	margin-bottom: 0px;
 	display: block;
   height: 80px;
-  color: #111;
   background-color: #1A1A1A;
 }
 
