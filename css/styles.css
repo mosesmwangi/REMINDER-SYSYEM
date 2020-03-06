@@ -35,6 +35,17 @@ justify-content: space-evenly; */
 color: #000;
 margin-top: 10px;
 }
+header {
+  text-align: center;
+}
+
+h1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: -webkit-linear-gradient(#9C27B0, #E040FB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 textarea{
   color: rgb(38, 50, 56);
