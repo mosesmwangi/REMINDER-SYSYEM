@@ -1,5 +1,9 @@
 body {
-  background-color: #F3EBF6;
+  background-image: url("../images/home.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
   font-family: 'Ubuntu', sans-serif;
 }
 ul .nav {
@@ -126,4 +130,41 @@ li.clck {
 }
 h2 {
     padding: 20px;
+}
+
+footer{
+	width: 100%;
+	margin-bottom: 0px;
+	display: block;
+  height: 80px;
+  color: #111;
+  background-color: #1A1A1A;
+}
+
+.footer-content{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+  padding: 5px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+  }
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
 }
