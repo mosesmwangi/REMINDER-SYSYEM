@@ -27,7 +27,5 @@ if ( username == "Moha" && password == "454n") {
 alert ("Login successfully");
 window.location = "index.html"; // Redirecting to other page.
   }
-else if (username == "Moses" && password == "moses") {
-  windows.location ="employee.html"
-}
+else return false;
 }
