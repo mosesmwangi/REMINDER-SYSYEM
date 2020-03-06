@@ -1,34 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link href="css/styles.css" rel ="stylesheet" type="text/css" media="all">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
   <title>EMPLOYEE</title>
 </head>
+
 <body>
-  <div id="title">
-    <div class="container">
-      <div class="jumbotron">
-        <h1>EMPLOYEE DASHBOARD</h1>
+  <div class="container">
+    <ul class="nav">
+      <li><a href="">Login</a></li>
+      <li><a href="index.html">About</a></li>
+      <li><a href="click.html">Schedules</a></li>
+      <li class="ndx"><a href="employee.html">Dashboard</a></li>
+    </ul>
+    <div class="jumbotron">
+      <h1>EMPLOYEE DASHBOARD</h1>
+    </div>
+
+    <div id="calendar">
+      <h4>Ensure that you stay posted on all the events that will take place and tasks to be performed everyday.</h4>
+      <br>
+      <button id="clickcal">
+        <h3>CALENDAR</h3>
+      </button>
+      <br>
+      <div class="showHide">
+        <iframe src="https://calendar.google.com/calendar/embed?src=remindermoringa5%40gmail.com&ctz=Africa%2FNairobi"
+          style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+      </div>
+    </div>
+    <div id="note">
+      <div class="container">
+        <h3>PLEASE NOTE</h3>
+        <p>An email will be sent to all employees a day before the event will take place.</p>
+        <p>The organisation advises that all employees check and plan on their tasks before-hand for better planning.
+        </p>
+        <p>Have a good day.</p>
       </div>
     </div>
   </div>
-  <div id="calendar">
-    <h4>Ensure that you stay posted on all the events that will take place and tasks to be performed everyday.</h4>
-    <br>
-    <button id="clickcal"><h3>CALENDAR</h3></button>
-    <br>
-    <iframe src="https://calendar.google.com/calendar/embed?src=remindermoringa5%40gmail.com&ctz=Africa%2FNairobi" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-  </div>
-  <div id="note">
-    <div class="container">
-      <h3>PLEASE NOTE</h3>
-      <p>An email will be sent to all employees a day before the event will take place.</p>
-      <p>The organisation advises that all employees check and plan on their tasks before-hand for better planning.</p>
-      <p>Have a good day.</p>
-    </div>
-  </div>
+
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/script.js"></script>
 </body>
+
 </html>
