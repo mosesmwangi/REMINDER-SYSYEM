@@ -24,7 +24,6 @@ function validate(){
 var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
 if ( username == "Moha" && password == "454n") {
-// alert ("Login successfully");
 window.location = "reminder.html"; // Redirecting to other page.
   }
 else if (username == "Moses" && password == "moses") {
